@@ -1,0 +1,26 @@
+body {
+    background-color: var(--background-color) !important;
+}
+
+.banner {
+    background-image: url(../images/carousel/carousel-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 462px;
+}
+
+.top-text {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-text h1 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-colour);
+}
+
+.top-text p {
+    font-family: "Lato", sans-serif;
+    color: var(--primary-colour-hover);
+}
