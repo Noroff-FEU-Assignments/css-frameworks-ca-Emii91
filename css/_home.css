@@ -21,6 +21,48 @@ body {
 }
 
 .top-text p {
-    font-family: "Lato", sans-serif;
-    color: var(--primary-colour-hover);
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary-colour);
+}
+
+.card {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: none;
+    background-color: transparent;
+}
+
+.card-header {
+    border: none;
+    padding: 0px 9px 12px;
+    background-color: transparent;
+}
+
+/* .nav-link {
+    width: 100px;
+} */
+
+.nav-link .active {
+    width: 118px;
+}
+
+ .nav-link.disabled {
+    color: var(--primary-colour) !important;
+} 
+
+.card-body {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+}
+
+.card-body img {
+    max-width: 238px;
+}
+
+.card-text {
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary-colour);
+    padding: 0px 20px;
+    text-align: left;
 }

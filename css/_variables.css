@@ -2,7 +2,10 @@
     --background-colour: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
     --primary-colour: #E92569;
-    --primary-colour-hover: #767676;
+    --secondary-colour: #767676; 
     --nav-colour: #EFEFEF;
     --icon-colour: #0A0A0A;
+    --footer-colour: #FFFFFF;
 }
+
+    /* Primary-colour-hover to secondary (need it for icons as well)

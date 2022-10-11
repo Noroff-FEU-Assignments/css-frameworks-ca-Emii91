@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--footer-colour);
+    color: var(--secondary-colour);
+    font-family: 'Lato', sans-serif;
+}
+
+footer a {
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary-colour);
+}
+
+svg {
+    color: var(--secondary-colour);
+}
