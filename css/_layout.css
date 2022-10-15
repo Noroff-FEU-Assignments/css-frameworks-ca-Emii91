@@ -1,5 +1,17 @@
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--background-color) !important;
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     display: flex;
+    flex-shrink: 0;
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
@@ -15,4 +27,8 @@ footer a {
 
 svg {
     color: var(--secondary-colour);
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }

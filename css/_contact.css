@@ -1,0 +1,71 @@
+/* .symbol {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 70px;
+} */
+
+.symbol {
+    order: 1;
+    margin-top: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contact-form {
+    background-color: var(--nav-colour);
+    max-width: 555px;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+h1.contact {
+    color: var(--primary-colour);
+    /* font-family: 'Playfair Display', serif; */
+    margin: 20px 70px;
+}
+
+label {
+    /* font-family: 'Lato', serif; */
+    color: var(--secondary-colour);
+}
+
+textarea.form-control {
+    height: 224px;
+}
+
+.form-check {
+    padding-bottom: 10px;
+}
+
+button.btn.btn-primary {
+    width: 480px;
+    background-color: var(--secondary-colour);
+    border: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        display: grid;
+    }
+    form.contact-form {
+        order: 2;
+        margin: 0 auto;
+    }
+    .symbol {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    form.contact-form {
+        max-width: 320px;
+    }
+    button.btn.btn-primary {
+        max-width: 250px;
+    }
+}

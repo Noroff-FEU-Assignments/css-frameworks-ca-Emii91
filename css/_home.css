@@ -1,35 +1,37 @@
-body {
-    background-color: var(--background-color) !important;
+.carousel-indicators .active {
+    height: 30px;
+    background-color: var(--primary-colour);
 }
 
-.banner {
-    background-image: url(../images/carousel/carousel-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 462px;
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    opacity: 1;
 }
 
 .top-text {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
-.top-text h1 {
+/* .top-text h1 {
     font-family: 'Playfair Display', serif;
     color: var(--primary-colour);
-}
+} */
 
-.top-text p {
+/* .top-text p {
     font-family: 'Lato', sans-serif;
     color: var(--secondary-colour);
-}
+} */
 
 .card {
     max-width: 1140px;
     margin: 0 auto;
     border: none;
     background-color: transparent;
+    margin-bottom: 50px;
 }
 
 .card-header {
@@ -38,9 +40,27 @@ body {
     background-color: transparent;
 }
 
-/* .nav-link {
-    width: 100px;
-} */
+.card-icons {
+    display: flex;
+    padding: 0px 20px;
+}
+
+i.fa-brands,
+.fa-facebook-f {
+    padding: 5px 10px;
+}
+
+p.icon-text {
+    /* font-family: 'Lato'; */
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    padding: 10px 40px;
+    border-radius: 10px 10px 00px 0px;
+    color: var(--secondary-colour) !important;
+}
 
 .nav-link .active {
     width: 118px;
@@ -61,8 +81,25 @@ body {
 }
 
 .card-text {
-    font-family: 'Lato', sans-serif;
-    color: var(--secondary-colour);
+    /* font-family: 'Lato', sans-serif; */
+    /* color: var(--secondary-colour); */
     padding: 0px 20px;
     text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+        margin: 40px;
+    }
+    .nav-item {
+        width: 100%;
+    }
+    .card-body {
+        flex-direction: column;
+        padding: 10px;
+    }
+    img.one {     
+        order: 2;
+        margin: 0 auto;
+    }
 }
