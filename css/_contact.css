@@ -3,9 +3,6 @@
     flex-direction: column;
     float: right;
     margin-right: 70px;
-}
-
-.symbol {
     order: 1;
     margin-top: 40px;
 }
@@ -44,12 +41,19 @@ button.btn.btn-primary {
     border: none;
 }
 
+.icon-one,
+.icon-two {
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 900px) {
     .content {
         display: grid;
     }
     h1.contact {
         order: 2;
+        margin: 0 auto;
+        padding: 20px;
     }
     form.contact-form {
         order: 3;
