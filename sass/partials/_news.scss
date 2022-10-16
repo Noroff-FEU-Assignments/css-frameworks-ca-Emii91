@@ -1,0 +1,79 @@
+button.btn.btn-secondary.active {
+    background-color: $primary !important;
+}
+
+button.btn.btn-secondary.active,
+button.btn.btn-secondary.disabled {
+    border: 1px solid $primary !important;
+    width: 40px;
+}
+
+button.btn.btn-secondary.disabled {
+    background-color: white;
+    color: $primary;
+}
+
+.top-part {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 20px;
+    color: $primary;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    grid-gap: 20px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.cards {
+    max-width: 264px;
+}
+
+.card-content {
+    background-color: white;
+    padding: 20px;
+}
+
+.card-content h2 {
+    padding: 0px 20px;
+}
+
+a.btn.btn-primary {
+    position: relative;
+    width: 204px;
+    margin: 0 auto;
+    background-color: $primary;
+    border: none;
+}
+
+a.btn.btn-primary::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 100%;
+    background-color: $secondary;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

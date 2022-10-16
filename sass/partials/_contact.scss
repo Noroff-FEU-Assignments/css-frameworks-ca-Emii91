@@ -1,0 +1,71 @@
+.symbol {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 70px;
+}
+
+.symbol {
+    order: 1;
+    margin-top: 40px;
+}
+
+.address {
+    padding-left: 100px;
+}
+
+.contact-form {
+    background-color: $nav-colour;
+    max-width: 555px;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+h1.contact {
+    color: $primary;
+    margin: 20px 70px;
+}
+
+label {
+    color: $secondary;
+}
+
+textarea.form-control {
+    height: 224px;
+}
+
+.form-check {
+    padding-bottom: 10px;
+}
+
+button.btn.btn-primary {
+    width: 480px;
+    background-color: $secondary;
+    border: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        display: grid;
+    }
+    h1.contact {
+        order: 2;
+    }
+    form.contact-form {
+        order: 3;
+        margin: 0 auto;
+    }
+    .symbol {
+        margin: 0 auto;
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    form.contact-form {
+        max-width: 320px;
+    }
+    button.btn.btn-primary {
+        max-width: 250px;
+    }
+}

@@ -1,6 +1,6 @@
 .carousel-indicators .active {
     height: 30px;
-    background-color: var(--primary-colour);
+    background-color: $primary;
 }
 
 .carousel-indicators li {
@@ -50,7 +50,7 @@ p.icon-text {
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     padding: 10px 40px;
     border-radius: 10px 10px 00px 0px;
-    color: var(--secondary-colour) !important;
+    color: $secondary !important;
 }
 
 .nav-link .active {
@@ -58,7 +58,8 @@ p.icon-text {
 }
 
  .nav-link.disabled {
-    color: var(--primary-colour) !important;
+    color: $primary !important;
+    // box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
 } 
 
 .card-body {
@@ -84,14 +85,14 @@ p.icon-text {
     .card-body {
         flex-direction: column;
         padding: 0px;
-        background-color: var(--nav-colour);
+        background-color: $nav-colour;
         padding-bottom: 40px;
     }
     .nav-item {
         width: 100%;
     }
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-        color: var(--primary-colour) !important;
+        color: $primary !important;
     }
     li.nav-item a {
         font-size: 19px;
@@ -121,8 +122,8 @@ p.icon-text {
     }
     .card-content {
         padding: 0px;
-        background-color: var(--nav-colour) !important;
-        border-top: 1px solid var(--primary-colour);
+        background-color: $nav-colour !important;
+        border-top: 1px solid $primary;
     }
     img.one {     
         order: 3;
