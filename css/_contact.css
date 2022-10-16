@@ -1,20 +1,18 @@
-/* .symbol {
+.symbol {
     display: flex;
     flex-direction: column;
     float: right;
     margin-right: 70px;
-} */
+}
 
 .symbol {
     order: 1;
     margin-top: 40px;
 }
 
-.content {
-    display: flex;
-    justify-content: space-evenly;
+.address {
+    padding-left: 100px;
 }
-
 
 .contact-form {
     background-color: var(--nav-colour);
@@ -25,12 +23,10 @@
 
 h1.contact {
     color: var(--primary-colour);
-    /* font-family: 'Playfair Display', serif; */
     margin: 20px 70px;
 }
 
 label {
-    /* font-family: 'Lato', serif; */
     color: var(--secondary-colour);
 }
 
@@ -52,12 +48,16 @@ button.btn.btn-primary {
     .content {
         display: grid;
     }
-    form.contact-form {
+    h1.contact {
         order: 2;
+    }
+    form.contact-form {
+        order: 3;
         margin: 0 auto;
     }
     .symbol {
         margin: 0 auto;
+        padding: 40px;
     }
 }
 

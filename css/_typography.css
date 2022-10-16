@@ -20,11 +20,8 @@ h2 {
     font-size: 20px;
 }
 
-p {
-    color: var(--secondary-colour);
-    font-size: 18px;
-}
-
+p,
 a {
     color: var(--secondary-colour);
+    font-size: 18px;
 }
